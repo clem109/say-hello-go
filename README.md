@@ -1,4 +1,4 @@
-# Say hello (rest-api-test)
+# Say Hello Go
 
 This application is a simple golang test project, using gin gonic for routing. Through the web ui users see the last message someone wrote and can add a new message for the next person to visit the website.
 
@@ -6,14 +6,14 @@ This application is a simple golang test project, using gin gonic for routing. T
 To get started simply run:
 ```sh
 # get this repo
-go get github.com/clem109/rest-api-test
+go get github.com/clem109/say-hello-go
 
 go build main.go
 go run main.go
 
 # or alternatively if you have go configured correctly
 go install
-rest-api-test
+say-hello-go
 ```
 This exposes port 8080.
 
@@ -21,7 +21,7 @@ This exposes port 8080.
 Incase you forget docker:
 
 ```sh
-go get github.com/clem109/rest-api-test
+go get github.com/clem109/say-hello-go
 
 docker build -t [your tag] .
 
